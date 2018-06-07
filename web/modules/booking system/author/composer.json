@@ -1,0 +1,8 @@
+{
+  "name": "booking_system/author",
+  "type": "drupal-module-booking_system",
+  "description": "Author module.",
+  "require": {
+    "drupal/entity_generic": "1.x-dev"
+  }
+}

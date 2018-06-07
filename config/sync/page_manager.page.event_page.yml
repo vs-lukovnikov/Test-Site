@@ -1,0 +1,16 @@
+uuid: 81b5d7f3-fad2-40e9-a82d-d826c7a20683
+langcode: en
+status: true
+dependencies: {  }
+id: event_page
+label: 'Event page'
+description: page
+use_admin_theme: false
+path: '/event/{bs_event}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  bs_event:
+    machine_name: bs_event
+    type: 'entity:bs_event'
+    label: ''

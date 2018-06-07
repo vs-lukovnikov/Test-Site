@@ -1,0 +1,11 @@
+entity.bs_author.add_page:
+  route_name: entity.bs_author.add_page
+  title: 'Add author'
+  appears_on:
+    - entity.bs_author.collection
+
+entity.bs_author_type.add_form:
+  route_name: entity.bs_author_type.add_form
+  title: 'Add author type'
+  appears_on:
+    - entity.bs_author_type.collection

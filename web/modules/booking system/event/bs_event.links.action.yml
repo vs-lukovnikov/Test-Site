@@ -1,0 +1,11 @@
+entity.bs_event.add_page:
+  route_name: entity.bs_event.add_page
+  title: 'Add event'
+  appears_on:
+    - entity.bs_event.collection
+
+entity.bs_event_type.add_form:
+  route_name: entity.bs_event_type.add_form
+  title: 'Add event type'
+  appears_on:
+    - entity.bs_event_type.collection

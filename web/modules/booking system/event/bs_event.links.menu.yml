@@ -1,0 +1,11 @@
+entity.bs_event.collection:
+  title: Events
+  description: Administer events.
+  parent: system.admin_structure
+  route_name: entity.bs_event.collection
+
+entity.bs_event_type.collection:
+  title: Events types
+  description: Configure the different types of events and their fields.
+  parent: entity.bs_event.collection
+  route_name: entity.bs_event_type.collection

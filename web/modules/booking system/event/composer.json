@@ -1,0 +1,8 @@
+{
+  "name": "booking_system/event",
+  "type": "drupal-module-booking_system",
+  "description": "Course module.",
+  "require": {
+    "drupal/entity_generic": "1.x-dev"
+  }
+}

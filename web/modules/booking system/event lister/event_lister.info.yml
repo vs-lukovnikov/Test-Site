@@ -1,0 +1,6 @@
+name: Event lister module
+description: Module contains Booking system event lister
+package: Custom
+
+type: module
+core: 8.x

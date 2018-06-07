@@ -1,0 +1,11 @@
+entity.bs_author.collection:
+  title: Authors
+  description: Administer authors.
+  parent: system.admin_structure
+  route_name: entity.bs_author.collection
+
+entity.bs_author_type.collection:
+  title: Authors types
+  description: Configure the different types of authors and their fields.
+  parent: entity.bs_author.collection
+  route_name: entity.bs_author_type.collection

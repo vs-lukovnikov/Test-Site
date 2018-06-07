@@ -1,0 +1,11 @@
+entity.bs_event.collection:
+  route_name: entity.bs_event.collection
+  base_route: entity.bs_event.collection
+  title: Events
+  weight: 10
+
+entity.bs_event_type.collection:
+  route_name: entity.bs_event_type.collection
+  base_route: entity.bs_event.collection
+  title: Types
+  weight: 20

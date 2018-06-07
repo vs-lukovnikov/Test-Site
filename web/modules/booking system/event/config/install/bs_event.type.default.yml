@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: default
+label: Default
+description: 'Default event type.'
+help: ''
+new_revision: null

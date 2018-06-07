@@ -1,0 +1,16 @@
+uuid: ac6bb75a-e5fa-4fe1-a47e-8b5d9d074219
+langcode: en
+status: true
+dependencies: {  }
+id: author_page
+label: 'Author page'
+description: 'Simple author page'
+use_admin_theme: false
+path: '/author/{bs_author}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  bs_author:
+    machine_name: bs_author
+    type: 'entity:bs_author'
+    label: ''

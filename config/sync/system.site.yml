@@ -1,0 +1,14 @@
+uuid: b4e41e8e-176b-4d35-b9e5-0632216485f2
+name: test.site
+mail: vs.lukovnikoff@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

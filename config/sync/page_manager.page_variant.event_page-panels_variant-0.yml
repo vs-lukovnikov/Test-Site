@@ -1,0 +1,143 @@
+uuid: 3a8f94e3-7e86-4ca5-a72c-99f490c0f863
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.event_page
+  module:
+    - ctools_block
+    - panels
+id: event_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    9cdf15dd-8922-4270-8438-5dc1b708f1ba:
+      id: 'entity_field:bs_event:name'
+      label: 'Event label'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: 9cdf15dd-8922-4270-8438-5dc1b708f1ba
+      context_mapping:
+        entity: bs_event
+    c3dfdc5f-3fe7-4fa4-9543-96308112574a:
+      id: 'entity_field:bs_event:author_id'
+      label: Author
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: entity_reference_label
+        settings:
+          link: true
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: c3dfdc5f-3fe7-4fa4-9543-96308112574a
+      context_mapping:
+        entity: bs_event
+    70f6f300-6b61-4073-b187-9092cdd61a33:
+      id: 'entity_field:bs_event:date'
+      label: 'Event date'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: datetime_default
+        settings:
+          timezone_override: Europe/Kiev
+          format_type: short
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: 70f6f300-6b61-4073-b187-9092cdd61a33
+      context_mapping:
+        entity: bs_event
+    09141b5c-45a6-4f14-b40c-a6a3453ac02c:
+      id: 'entity_field:bs_event:gps'
+      label: 'GPS Coordinates'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: geolocation_map
+        settings:
+          set_marker: '1'
+          title: ''
+          info_text: ''
+          replacement_patterns:
+            token_geolocation:
+              token_items: ''
+          google_map_settings:
+            height: 400px
+            width: 100%
+            type: ROADMAP
+            zoom: '10'
+            maxZoom: 18
+            minZoom: 0
+            mapTypeControl: 0
+            streetViewControl: 0
+            zoomControl: 0
+            rotateControl: 0
+            fullscreenControl: 0
+            scrollwheel: 0
+            gestureHandling: auto
+            draggable: 0
+            preferScrollingToZooming: 0
+            disableDoubleClickZoom: 0
+            style: ''
+            info_auto_display: 0
+            marker_icon_path: ''
+            disableAutoPan: 0
+          use_overridden_map_settings: 0
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: 09141b5c-45a6-4f14-b40c-a6a3453ac02c
+      context_mapping:
+        entity: bs_event
+    3bba8092-aeee-4473-bc72-8a92dfb2c383:
+      id: 'entity_field:bs_event:num_places'
+      label: Places
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: number_integer
+        settings:
+          thousand_separator: ''
+          prefix_suffix: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: 3bba8092-aeee-4473-bc72-8a92dfb2c383
+      context_mapping:
+        entity: bs_event
+  id: panels_variant
+  uuid: c4e7353a-1457-47ce-8ec0-93e2811cde40
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: event_page-panels_variant-0
+  builder: standard
+page: event_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

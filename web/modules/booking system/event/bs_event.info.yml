@@ -1,0 +1,8 @@
+name: Booking system Event
+core: 8.x
+description: Booking system Event Module.
+package: booking system
+type: module
+version: VERSION
+dependencies:
+  - entity_generic

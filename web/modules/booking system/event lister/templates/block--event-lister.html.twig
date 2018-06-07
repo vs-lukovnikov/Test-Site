@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * Print training_list page.
+ *
+ * Available variables:
+ *   - list
+ *
+ * @see template_preprocess_list_of_modules()
+ *
+ * @ingroup themeable
+ */
+#}
+{#<h1>{{ events[0]['title'] }}</h1>#}
+
+<ul>
+  {% for event in events %}
+    <li>
+      <p>Event: {{ event.name }}<small> <i>Created by: {{ event.a_name }}</i></small></p>
+      <p>Event date: {{ event.date }}</p>
+
+    </li>
+  {% endfor %}
+  {{ list }}
+</ul>

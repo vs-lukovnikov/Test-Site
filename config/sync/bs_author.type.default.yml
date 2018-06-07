@@ -1,0 +1,11 @@
+uuid: e37f2f5b-6fa1-459d-93d4-e15b0c48cfb3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OH1AqCi0yGktnH5Tpm2KtDDZlRHlGteE7ItjmVJXqoM
+id: default
+label: Default
+description: 'Default author type.'
+help: ''
+new_revision: null

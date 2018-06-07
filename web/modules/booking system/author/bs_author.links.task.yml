@@ -1,0 +1,11 @@
+entity.bs_author.collection:
+  route_name: entity.bs_author.collection
+  base_route: entity.bs_author.collection
+  title: Authors
+  weight: 10
+
+entity.bs_author_type.collection:
+  route_name: entity.bs_author_type.collection
+  base_route: entity.bs_author.collection
+  title: Types
+  weight: 20

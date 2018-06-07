@@ -1,0 +1,75 @@
+uuid: 109cb52a-c87e-4b89-8810-d9b0b8d4a6b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.author_page
+    - views.view.event_list_page
+  module:
+    - ctools_block
+    - panels
+    - views
+id: author_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    9a544bee-855b-41c5-b41f-372cd0432d70:
+      id: 'entity_field:bs_author:name'
+      label: Name
+      provider: ctools_block
+      label_display: visible
+      formatter:
+        label: hidden
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: -1
+      uuid: 9a544bee-855b-41c5-b41f-372cd0432d70
+      context_mapping:
+        entity: bs_author
+    fd1f60de-7dee-4acc-9cca-80d6545143d6:
+      id: 'entity_field:bs_author:description'
+      label: Description
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: fd1f60de-7dee-4acc-9cca-80d6545143d6
+      context_mapping:
+        entity: bs_author
+    87a0caee-bde7-4401-942e-cda30721d9f2:
+      id: 'views_block:event_list_page-block_1'
+      label: 'Author''s events'
+      provider: views
+      label_display: visible
+      views_label: 'Author''s events'
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: 87a0caee-bde7-4401-942e-cda30721d9f2
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 36976373-598f-4b9f-bd6e-d066de485411
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: author_page-panels_variant-0
+  builder: standard
+page: author_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
