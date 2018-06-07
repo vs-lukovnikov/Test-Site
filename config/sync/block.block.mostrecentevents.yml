@@ -1,0 +1,20 @@
+uuid: da4d3a0a-3fe0-496b-9e64-344aef3d4c61
+langcode: en
+status: true
+dependencies:
+  module:
+    - event_lister
+  theme:
+    - bartik
+id: mostrecentevents
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: event_lister_block
+settings:
+  id: event_lister_block
+  label: 'Most recent events:'
+  provider: event_lister
+  label_display: visible
+visibility: {  }
