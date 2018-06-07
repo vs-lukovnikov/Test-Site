@@ -55,5 +55,3 @@ web:
             scripts: false
             allow: true
             passthru: '/index.php'
-relationships:
-    database: "mydatabase:mysql"
