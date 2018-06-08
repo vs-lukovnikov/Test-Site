@@ -10,8 +10,3 @@
 6. Author page should display events list by this author (using views)
 
 
-## Usage
-1. Run composer install.
-2. Go over the dicectory web/.
-3. Run command ../bin/drush cim to import config files from directory config/sync. 
-
