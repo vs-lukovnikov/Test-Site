@@ -13,5 +13,5 @@
 ## Usage
 1. Run composer install.
 2. Go over the dicectory web/.
-3. Run command ../bin/drush cex to export config files from directory config/sync. 
+3. Run command ../bin/drush cim to import config files from directory config/sync. 
 
